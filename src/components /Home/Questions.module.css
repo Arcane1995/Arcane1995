@@ -1,0 +1,13 @@
+.questions {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon{
+    align-self: center;
+    width: 3%;
+    height: auto;
+}

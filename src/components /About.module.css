@@ -1,0 +1,35 @@
+
+.main {
+  width: 100%;
+ 
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em; 
+  background: -webkit-linear-gradient(182deg, #72ecbd,#d0cecf,#dc893a); 
+  color: #ffffff; 
+  text-align: center;
+}
+
+.text p {
+  margin-top: 1em;
+  font-size: 1.2em; 
+}
+
+.text h1 {
+  color: rgb(120, 117, 117);
+}
+
+.main img {
+  width: 100%;
+  
+}
+

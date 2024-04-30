@@ -1,0 +1,55 @@
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(182deg, #72ecbd,#d0cecf,#dc893a);                                             
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .serviceList {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .serviceItem {
+    width: 45%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .serviceImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .serviceTitle {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .serviceDescription {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .servicePrice {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+  @media only screen and (max-width: 768px) {
+    .serviceItem {
+      width: 100%; /* Изменяем ширину блоков на 100% на маленьких экранах */
+    }
+  }
+  

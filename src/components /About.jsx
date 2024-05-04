@@ -3,7 +3,7 @@ import styles from "./About.module.css";
 export default function About() {
   return (
     <div className={styles.main}>
-      <img src="/date/About.png" alt="hd" />
+      <img src="/Arcane1995/date/About.png" alt="hd" />
       <div className={styles.text}>
         <h1>PilatesPro</h1>
         <p>

@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink,Link} from "react-router-dom";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa"; 
 import styles from "./Menu.module.css";
@@ -26,7 +26,7 @@ export default function Menu() {
         <NavLink to="/about">О нас</NavLink>
         <NavLink to="/services">Услуги и цены</NavLink>
         <NavLink to="/trainer">Команда</NavLink>
-        <a href="/#Contacts">Контакты</a>
+        <Link to="#Contacts">Контакты</Link>
 
       </div>
       

@@ -6,7 +6,7 @@ export default function Trainer() {
     <div className={styles.main}>
       <h1>Наши тренера </h1>
       <div id="ilzat" className={styles.diana}>
-        <img src="/date/ilzat.jpg" alt="" />
+        <img src="/Arcane1995/date/ilzat.jpg" alt="" />
 
         <p>
           <b className={styles.name}>Ильзат</b> <br />
@@ -24,7 +24,7 @@ export default function Trainer() {
       </div>
       <hr />
       <div id ='raihan'className={styles.diana}>
-        <img src="/date/raihan.jpg" alt="" />
+        <img src="/Arcane1995/date/raihan.jpg" alt="" />
 
         <p>
           <b className={styles.name}>Райхан</b> <br />
@@ -42,7 +42,7 @@ export default function Trainer() {
       </div>
       <hr />
       <div id='diana' className={styles.diana}>
-        <img src="/date/diana.jpg" alt="" />
+        <img src="/Arcane1995/date/diana.jpg" alt="" />
 
         <p>
           <b className={styles.name}>Диана</b> <br />
@@ -60,7 +60,7 @@ export default function Trainer() {
       </div>
       <hr />
       <div id='janel'className={styles.diana}>
-        <img src="/date/janel.jpg" alt="" />
+        <img src="/Arcane1995/date/janel.jpg" alt="" />
 
         <p>
           <b className={styles.name}>Жанель</b> <br />

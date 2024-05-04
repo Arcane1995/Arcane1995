@@ -40,7 +40,7 @@ export default function Home() {
       </div>
 
       <Target
-        src={"date/back.JPG"}
+        src={"/Arcane1995/date/back.JPG"}
         text={
           "Пилатес улучшает все элементы физического состояния: силу,стойкость, гибкость, проворство, скорость; обучает корректной активации мышечного корсета; вносит коррективы в осанку."
         }
@@ -49,7 +49,7 @@ export default function Home() {
       </Target>
       <Target
         Right
-        src={"date/balans.JPG"}
+        src={"/Arcane1995/date/balans.JPG"}
         text={
           "Пилатес является ключом к гармонии баланса и силы. Он укрепляет мышцы, улучшая их тонус и силу, в то же время обучая контролю и стабильности. Это помогает улучшить равновесие, координацию и общую силу тела. Пилатес делает вас сильнее не только физически, но и улучшает ваше общее состояние благодаря улучшенному балансу и силе."
         }
@@ -57,7 +57,7 @@ export default function Home() {
         Баланс и сила
       </Target>
       <Target
-        src={"date/fell.JPG"}
+        src={"/Arcane1995/date/fell.JPG"}
         text={
           "Пилатес не просто способствует улучшению физической формы, но и повышает качество самочувствия. Он помогает усилить осознание своего тела, повышает концентрацию и способствует снижению стресса. Пилатес может сделать вас более энергичными, бодрыми и полными жизненной силы. Это не просто тренировка для тела, это тренировка для ума и души. Пилатес помогает вам чувствовать себя лучше в своем теле и улучшает ваше общее самочувствие."
         }
@@ -69,16 +69,16 @@ export default function Home() {
           
       
       <Link to="/trainer#ilzat"  >
-        <img src="/date/ilzat.jpg" alt="" />
+        <img src="/Arcane1995/date/ilzat.jpg"  alt="" />
       </Link>
       <Link to="/trainer#raihan">
-        <img src="/date/raihan.jpg" alt="" />
+        <img src="/Arcane1995/date/raihan.jpg" alt="" />
       </Link>
       <Link to="/trainer#diana">
-        <img src="/date/diana.jpg" alt="" />
+        <img src="/Arcane1995/date/diana.jpg" alt="" />
       </Link>
       <Link to="/trainer#janel">
-        <img src="/date/janel.jpg" alt="" />
+        <img src="/Arcane1995/date/janel.jpg" alt="" />
       </Link>
           
         </div>

@@ -2,9 +2,8 @@ import { LuSofa } from "react-icons/lu";
 import { IoFitness } from "react-icons/io5";
 import { IoIosFitness } from "react-icons/io";
 import { GiJumpingRope } from "react-icons/gi";
-
+import { HashLink as Link } from 'react-router-hash-link';
 import styles from "./Home.module.css";
-import { NavLink ,Link } from "react-router-dom";
 import Questions from "./Questions";
 import Target from "./Target";
 
@@ -14,7 +13,7 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <div className={styles.preview}>
-        <h1 className={styles.brend}>PilatesPro</h1>
+        <h1 className={styles.brend}>pilatesprokz</h1>
         <h2 className={styles.text}>Гармония тела и духа в каждом движении</h2>
       </div>
       <div className={styles.About}>
@@ -34,9 +33,9 @@ export default function Home() {
           У вас есть возможность пройти пробное занятие всего от 2000 тенге и
           убедиться в качестве наших услуг.
         </h2>
-        <NavLink className={styles.NavLink} to="about">
+        <Link className={styles.NavLink} to="/about#1">
           Узнать подробнее о нас
-        </NavLink>
+        </Link>
       </div>
 
       <Target
@@ -68,18 +67,23 @@ export default function Home() {
         <div className={styles.trainer}>
           
       
-      <Link to="/trainer#ilzat"  >
-        <img src="/Arcane1995/date/ilzat.jpg"  alt="" />
+        <Link to="/trainer#larisa">
+        <img src="/Arcane1995/date/larisa.jpg" alt="" />
       </Link>
       <Link to="/trainer#raihan">
         <img src="/Arcane1995/date/raihan.jpg" alt="" />
       </Link>
-      <Link to="/trainer#diana">
-        <img src="/Arcane1995/date/diana.jpg" alt="" />
-      </Link>
       <Link to="/trainer#janel">
         <img src="/Arcane1995/date/janel.jpg" alt="" />
       </Link>
+      <Link to="/trainer#diana">
+        <img src="/Arcane1995/date/diana.jpg" alt="" />
+      </Link>
+      <Link to="/trainer#ilzat" hash="ilzat"  >
+        <img src="/Arcane1995/date/ilzat.jpg"  alt="" />
+      </Link>
+      
+      
           
         </div>
         

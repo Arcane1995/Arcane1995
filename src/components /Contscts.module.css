@@ -8,7 +8,7 @@
   grid-template-columns: 1fr 1fr 1fr; 
   gap: 2vw; 
   padding: 2vw; 
-  background: -webkit-linear-gradient(182deg, #72ecbd,#d0cecf,#dc893a); 
+  background-color: rgb(255, 255, 222); 
 }
 
 .contactItem {
@@ -28,7 +28,7 @@
 
 .taime {
   text-align: center;
-  background: -webkit-linear-gradient(182deg, #72ecbd,#d0cecf,#dc893a); 
+  background-color: rgb(255, 255, 222);
 }
 
 @media only screen and (max-width: 768px) {

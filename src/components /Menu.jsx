@@ -15,7 +15,7 @@ export default function Menu() {
     <nav className={styles.navbar}>
       {!isOpen && <div className={styles.logo}>
         <NavLink to="/" end>
-          PilatesPro
+          PilatesProkz
         </NavLink>
       </div>}
       <div className={isOpen ? styles.show : styles.menuItems}>

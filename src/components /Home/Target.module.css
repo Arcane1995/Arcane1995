@@ -8,7 +8,7 @@
 .target div{
     display: grid;
     grid-template-columns: 40vw 40vw;
-    background: -webkit-linear-gradient(182deg, #72ecbd,#d0cecf,#dc893a);/* Chrome 10-25, Safari 5.1-6 */                                                                     
+    background-color: rgb(255, 255, 222);/* Chrome 10-25, Safari 5.1-6 */                                                                     
     align-items: center;
     justify-items: center;
 

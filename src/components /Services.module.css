@@ -2,8 +2,8 @@
 .container {
     width: 100%;
     margin: 0 auto;
-    background: -webkit-linear-gradient(182deg, #72ecbd,#d0cecf,#dc893a);                                             
-    background-color: #f9f9f9;
+    background-color: rgb(255, 255, 222);                                             
+    
   }
   
   .title {

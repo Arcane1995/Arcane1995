@@ -26,7 +26,7 @@ export default function Home() {
 
         <h2>
           Мы предлагаем занятия как в группах, так и индивидуально, чтобы каждый
-          клинт мог выбрать оптимальный формат обучения.
+           мог выбрать оптимальный формат обучения.
         </h2>
 
         <h2>
@@ -39,7 +39,7 @@ export default function Home() {
       </div>
 
       <Target
-        src={"/Arcane1995/date/back.JPG"}
+        src={"date/back.JPG"}
         text={
           "Пилатес улучшает все элементы физического состояния: силу,стойкость, гибкость, проворство, скорость; обучает корректной активации мышечного корсета; вносит коррективы в осанку."
         }
@@ -48,7 +48,7 @@ export default function Home() {
       </Target>
       <Target
         Right
-        src={"/Arcane1995/date/balans.JPG"}
+        src={"date/balans.JPG"}
         text={
           "Пилатес является ключом к гармонии баланса и силы. Он укрепляет мышцы, улучшая их тонус и силу, в то же время обучая контролю и стабильности. Это помогает улучшить равновесие, координацию и общую силу тела. Пилатес делает вас сильнее не только физически, но и улучшает ваше общее состояние благодаря улучшенному балансу и силе."
         }
@@ -56,7 +56,7 @@ export default function Home() {
         Баланс и сила
       </Target>
       <Target
-        src={"/Arcane1995/date/fell.JPG"}
+        src={"date/fell.JPG"}
         text={
           "Пилатес не просто способствует улучшению физической формы, но и повышает качество самочувствия. Он помогает усилить осознание своего тела, повышает концентрацию и способствует снижению стресса. Пилатес может сделать вас более энергичными, бодрыми и полными жизненной силы. Это не просто тренировка для тела, это тренировка для ума и души. Пилатес помогает вам чувствовать себя лучше в своем теле и улучшает ваше общее самочувствие."
         }
@@ -68,19 +68,19 @@ export default function Home() {
           
       
         <Link to="/trainer#larisa">
-        <img src="/Arcane1995/date/larisa.jpg" alt="" />
+        <img src="date/larisa.jpg" alt="" />
       </Link>
       <Link to="/trainer#raihan">
-        <img src="/Arcane1995/date/raihan.jpg" alt="" />
+        <img src="date/raihan.jpg" alt="" />
       </Link>
       <Link to="/trainer#janel">
-        <img src="/Arcane1995/date/janel.jpg" alt="" />
+        <img src="date/janel.jpg" alt="" />
       </Link>
       <Link to="/trainer#diana">
-        <img src="/Arcane1995/date/diana.jpg" alt="" />
+        <img src="date/diana.jpg" alt="" />
       </Link>
       <Link to="/trainer#ilzat" hash="ilzat"  >
-        <img src="/Arcane1995/date/ilzat.jpg"  alt="" />
+        <img src="date/ilzat.jpg"  alt="" />
       </Link>
       
       

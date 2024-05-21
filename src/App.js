@@ -10,7 +10,7 @@ import NotFound from "./components /NotFound";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter >
       <div className="app">
         <Routes>
           <Route path="/" element={<MainLayout />}>
